@@ -5,7 +5,7 @@
     <c:param name="content">
         <c:choose>
             <c:when test="${message != null}">
-                 <h2>id : ${message.id} のメッセージ詳細ページ</h2>
+                 <h2>id : ${message.id} のタスク詳細ページ</h2>
 
                 <table>
                     <tbody>
@@ -14,7 +14,7 @@
                             <td><c:out value="${message.title}" /></td>
                         </tr>
                         <tr>
-                            <th>メッセージ</th>
+                            <th>タスク内容</th>
                             <td><c:out value="${message.content}" /></td>
                         </tr>
                         <tr>
